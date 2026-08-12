@@ -2,3 +2,16 @@
 
 ## Pre-Homelabbing
 
+The idea of creating my very own homelab has been on my mind for a while now. As good as my daily tryhackme habit has been for me, playing around with virutal machines in a browser and answering questions can only go so far. Creating a homelab, though? It goes beyond that. It seems like one of the most obvious ways to get hands-on experience with networking and cyber security, and I get a nice project out of it, that can always be upgraded and expanded as I go on. Besides, now I'll be able to tell people at university that I'm currently VPNed to my own server at home. If that isn't cool I don't know what is.  
+
+As soon as I started to dive down this endless rabbit hole, it was only a matter of time until algorithms across social media caught onto this new interest of mine. Homelab content started to appear all over instagram, which often lead me to researching about the terms and such the created used in said videos. Looking at instagram this way, I don't feel as guilty for scrolling. I have a habit of wanting to do things, and then putting them aside for a while. It's fairly frustrating, to be honest, because by the end of it I'll end up with 10 projects on my "to-do list". This time though, I was committed, and from research I knew I didn't need fancy enterprise grade servers and cisco managed switched to start.  
+
+I got to work searching online for options. The first thing that hit me was the fact that rather huge servers were being sold for fairly reasonable prices. 96GB of RAM? Seriously? Sounded like a steal. I mean, it made sense, right? Once a company had shiny new tech, they could flog the old stuff cheap. Luckily, I didn't go this route. There's a few good reasons for this. One that didn't even cross my mind at the start was power consumption. I'd probably be kicked out if the electricity bill happened to spike by £30 a month - there was no way that was worth it. Secondly, the noise. Yeah, not ideal. So what was the solution? Everyone says that you can start a homelab with just an old laptop, but where's the fun in that? I needed something that merely sips power, is quiet, won't break the bank, and is at least powerful enough to play around with. The answer was simple. Preowned old mini pcs. The type you'd find behind the desk at the denist or something.  
+
+Now while one mini pc would do the job, and let me play around and tinker with various things that will help me in the future, the specs are never exactly impressive, and during this "AI boom", the prices of RAM and memory are scary. A little more research later, I discovered the terms "cluster" and "node" (in this context). A cluster is exactly what it sounds like. Multiple computers working together. These devices are referred to as nodes. There are many benefits to this, with a huge one being uptime. If one node gets overwhelmed, loses power, or something similar, the other nodes in the cluster can continue working. While I doubt my little homelab (to begin with) will rely on 99.9% uptime, it will be good practice. The entire project is good practice.  
+
+In the end, taking strongly into consideriation the availability and prices of the systems, I went for THREE of the following computers:  
+HP EliteDesk 800 G3 Mini PC (65W)
+I5-7500  
+16GB RAM  
+256GB Nvme SSD  
