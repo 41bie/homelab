@@ -1,0 +1,8 @@
+recreate network in packet tracer when done
+
+to do:
+enabled virtualisation in bios
+installed proxmox on all 3 machines
+configured them with ip addresses
+dns didnt work, so changed it to 1.1.1.1
+updated stuff
