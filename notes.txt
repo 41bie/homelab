@@ -5,4 +5,9 @@ enabled virtualisation in bios
 installed proxmox on all 3 machines
 configured them with ip addresses
 dns didnt work, so changed it to 1.1.1.1
-updated stuff
+updated all nodes
+talk about that weird problem i had 
+clustering time
+decision to make pve03 a cyber testing lab, and therefore isolated.
+setting up kali linux on pve03
+setting up windows 11 on pv03
