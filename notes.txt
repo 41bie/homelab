@@ -11,3 +11,5 @@ clustering time
 decision to make pve03 a cyber testing lab, and therefore isolated.
 setting up kali linux on pve03
 setting up windows 11 on pv03
+
+services
