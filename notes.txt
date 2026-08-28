@@ -1,4 +1,5 @@
 recreate network in packet tracer when done
+add a readme with links to the different sections in my main md file.
 
 to do:
 enabled virtualisation in bios
