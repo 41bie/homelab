@@ -54,7 +54,8 @@ With no access to VLANs and physical firewalls yet, I'm wary about deploying eth
 For the time being, I decided to keep if very simple. I'd deploy two virutal machines, and get them to communicate with each other. I decided on Kali Linux, of course, and Windows 11. The nice thing about a hypervisor like Proxmox is that I can discard these machines whenever I feel like it. The deployment itself was simple, similar to VirutalBox. I gave each machine enough hardware but nothing crazy. After getting through the setups, I confirmed that neither could access the internet or devices on my home network, and assigned them simple IP addresses: 10.10.10.10 and 10.10.10.20. Sure enough, after disabling windows firewall for a moment, I could communicate back and forth between machines.
 
 ## CyberLab Projects
-(put date before talking about each one)
+
+Work in progress :)
 
 
 ## Services
@@ -62,6 +63,14 @@ For the time being, I decided to keep if very simple. I'd deploy two virutal mac
 To make use of my new homelab, I decided to implement various services on my home network. While I'm not one of those people who deseperately wants to replace subscriptions as I don't have many, being able to host my own picture storage sounds very nice. While my most important pictures are backed up in many ways, a central hub for my large quanity of photos and videos would be great. With this in mind, to have a meaningful setup I'd need a lot of storage, which in 2026, is expensive. A NAS device is an investment I'd like to eventually make, however. For now, I plan to setup Immich as a learning experience, not as much for practicality. That being said, I will also deploy an RSS reader as staying up to date with developing technology in cyber security and AI is important. Having a centralised area to do so removes the annoyance of having many tabs open with different articles on. FreshRSS seems like a good option as it is extremely lightweight, and has good mobile sync support. Setting these up will be a great learning experience, even more so since I plan to use Docker Compose.
 
 On pve01, I decided on Debian 13 because that is what is familiar. I gave it basic resources, nothing crazy. I also chose to install it without a GUI to make it even more lightweight. This means it'll be CLI only. Although it's a little daunting, I do have some experience with Linux commands, and the payoff seems more than worth it because the GUI is pretty reductant for a machine using only Docker and containers. I gave this machine the private IP address of 192.168.0.210. This felt like a sensible option. It's leaves a nice gap between it and my nodes. That said though, as I'm writing this, I may change it to 192.168.0.211 because I like having the final digit corrolate to the number of device it is. For example, this vm is my first vm on vmbr0.
+
+Before I can install containers, I need Docker for containers and Docker Compose for managing them. I ssh'ed into my .210 vm, which made my life easier as I can copy and paste commands from the Docker setup documentation. Installing was easy, and I implemented the example hello world container to ensure my installation was good.
+
+### Immich
+
+I then created a directory on the vm for the Immich .yml and the .env and used wget to download them. For this experience, I left the .env configuration as the default. I ran the main Immich for Docker Compose command in the new directory, and it pulled the image from the internet. Moments later, Immich was up and running. I'm already fond of Docker. I could then list my containers, and see that everything was running. The next thing was obvious - access it through its port, 2283. 
+
+After setting up an admin account, the mobile app, and some example pictures, I'm very happy with how Immich looks and feels. I've decided that I will in fact invest in some storage and use Immich going forward.
 
 
 ## Day-to-day
