@@ -70,7 +70,9 @@ Before I can install containers, I need Docker for containers and Docker Compose
 
 I then created a directory on the vm for the Immich .yml and the .env and used wget to download them. For this experience, I left the .env configuration as the default. I ran the main Immich for Docker Compose command in the new directory, and it pulled the image from the internet. Moments later, Immich was up and running. I'm already fond of Docker. I could then list my containers, and see that everything was running. The next thing was obvious - access it through its port, 2283. 
 
-After setting up an admin account, the mobile app, and some example pictures, I'm very happy with how Immich looks and feels. I've decided that I will in fact invest in some storage and use Immich going forward.
+After setting up an admin account, the mobile app, and some example pictures, I'm very happy with how Immich looks and feels. I've decided that I will in fact invest in some storage and use Immich going forward.  
+
+### FreshRSS
 
 
 ## Day-to-day
