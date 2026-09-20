@@ -1,5 +1,8 @@
 recreate network in packet tracer when done
 add a readme with links to the different sections in my main md file.
+add broad summary at the top
+add contents page
+add skills demonstrated section
 
 to do:
 enabled virtualisation in bios
