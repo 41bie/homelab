@@ -23,7 +23,7 @@ I5-7500
 
 I also got my hands on a 6 way surge protection strip, and a cheap, simple unmanaged switch. Why I do eventually want to implement VLANs and have access to switch configuration, I believe that should come later, once I've already established my homelab a little. Speaking of future upgrades, I'd also love to eventually replace the ISP router with my own, have a dedicated firewall, and some kind of network attached storage. All of these can come later though, and I don't need them to start learning.
 
-As I waited for my hardware to arrive, I drafted out rough a rough plan. Proxmox sounded like the perfect hypervisor for my setup, and I also liked how the UI looked when researching it.
+As I waited for my hardware to arrive, I drafted out a rough plan. Proxmox sounded like the perfect hypervisor for my setup, and I also liked how the UI looked when researching it.
 
 
 ## Pre-Proxmox
